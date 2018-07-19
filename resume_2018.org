@@ -1,0 +1,154 @@
+#+TITLE:       袁  龙
+#+OPTIONS:     toc:nil num:nil author:nil date:nil
+#+LaTeX_HEADER: \usepackage[left=0.3in,top=0.5in,right=0.3in,bottom=1in]{geometry}
+#+LaTeX_HEADER: \usepackage{palatino}
+#+LaTeX_HEADER: \usepackage{fancyhdr}
+#+LaTeX_HEADER: \usepackage{sectsty}
+#+LaTeX_HEADER: \usepackage{engord}
+#+LaTeX_HEADER: \usepackage{cite}
+#+LaTeX_HEADER: \usepackage{graphicx}
+#+LaTeX_HEADER: \usepackage{setspace}
+#+LaTeX_HEADER: \usepackage[compact]{titlesec}
+#+LaTeX_HEADER: \usepackage[center]{caption}
+#+LaTeX_HEADER: \usepackage{multirow}
+#+LaTeX_HEADER: \usepackage{ifthen}
+#+LaTeX_HEADER: \usepackage{longtable}
+#+LaTeX_HEADER: \usepackage{color}
+#+LaTeX_HEADER: \usepackage{amsmath}
+#+LaTeX_HEADER: \usepackage{listings}
+#+LaTeX_HEADER: \usepackage{pdfpages}
+#+LaTeX_HEADER: \usepackage{nomencl}	% For glossary
+#+LaTeX_HEADER: \usepackage{pdflscape}	% For landscape pictures and environment
+#+LaTeX_HEADER: \usepackage{verbatim} 	% For multiline comment environments
+#+LaTeX_HEADER: \usepackage[table]{xcolor}
+#+BEGIN_SRC latex
+   \begin{tabular}{ccc}
+   \begin{minipage}{.3\textwidth}
+Title: 机器学习算法工程师\\
+Company: 中兴通讯
+    \end{minipage} &
+    \begin{minipage}{.3\textwidth}
+Phone: 18118801655\\
+Add: 南京市江宁区
+    \end{minipage} &
+    \begin{minipage}{.3\textwidth}
+Site: yiddishkop.github.io\\
+Email: yiddishkop@163.com
+    \end{minipage}
+    \end{tabular}
+#+END_SRC
+
+
+
+* 教育背景
+
+#+BEGIN_EXAMPLE
+教育经历 南京理工大学
+专业 计算机科学与技术
+学历 本科
+时间 2005 — 2009
+#+END_EXAMPLE
+
+
+* 人工智能 MOOC 学习历程
+  | university | course                      | my notes | homework | final project |
+  |------------+-----------------------------+----------+----------+---------------|
+  | NTU		   | ML Foundations				 |			|		   |			   |
+  | NTU		   | ML Technical				 |			|		   |			   |
+  | NTU		   | DL							 |			|		   |			   |
+  | Ucberkeley | cs-294: Deep RL			 |			|		   |			   |
+  | Stanford   | cs-20SI: DL with Tensorflow |			|		   |			   |
+
+* 工作经历
+** 中兴通讯股份有限公司
+| 公司/职位        | 时间           | 工作内容                                                                                         |
+|------------------+----------------+--------------------------------------------------------------------------------------------------|
+| 中兴股份有限公司 | 2015-01 — 现在 | 1、T800路由器项目-bootloader开发 API封装                                                         |
+| 高级软件工程师   |                | - 对已有bootloader汇编代码进行改写                                                               |
+|                  |                | - 完成路由子系统的寄存器封装,对产品应用层提供API调用接口                                         |
+|                  |                | - 完成互通及兼容性测试                                                                           |
+|                  |                | 2、PON9112项目-内核kmodule嵌入 net模块驱动                                                       |
+|                  |                | - 独立完成kmodule模块的改写                                                                      |
+|                  |                | - 完成以太网接口驱动程序编写                                                                     |
+|                  |                | 3、PON9113项目-SDRAM缓存管理                                                                     |
+|                  |                | - 完成SDRAM缓存管理模块代码编写                                                                  |
+|                  |                | 4、集成自动化测试项目                                                                            |
+|                  |                | - 独立提出并负责集成自动化测试项目,基于secureCRT与python对命令行进行封装实现测试的自动化和可视化 |
+
+
+** 深圳大坤管理咨询有限公司
+#+BEGIN_QUOTE
+职位 软件工程师
+时间 2009-05 — 2014-12
+1、公司内部人力资源网-服务器端持久层设计 数据库设计维护
+*负责数据库的设计与开发
+*负责网站持久层开发-使用hibernate框架实现ORmapping,利用二级缓存技术保证
+前端与数据库之间数据的传输效率
+2、公司电子商务网站-服务器端缓存优化 框架设计
+*利用ssh2+mysql+tomcat设计整体项目,我负责其中spring框架的开发,利用
+spring降低模块间耦合度,提高架构可维护性
+*利用hibernate二级缓存技术配合tomcat服务器优化策略,直接降低网站的响应时间
+0.8秒钟
+#+END_QUOTE
+
+** 技术经历
+#+BEGIN_EXAMPLE
+-中兴t800路由项目,我负责bootloader的代码编写,近1000行汇编代码。实现
+了t800自研芯片的成功启动,该代码一直在后续产品中稳定的使用。
+-中兴pon9113是光网络终端项目的改进版,与原版相比最大的改变是将原有外
+存结构2G-DDR改为128M-SDRAM,我与其余两位同事共同负责,片内外缓存
+的存储和交换策略研发,该模块研发历时3个月代码量约10000行。
+-深圳大坤的电子商务网站,利用ssh2+mysql+tomcat设计整体项目,我负责其
+中spring框架的开发,利用spring降低模块间耦合度提高架构可维护性,并且利
+用hibernate二级缓存技术配合tomcat服务器优化策略,直接降低网站的响应时
+间0.8秒钟,实现0.3秒的响应速度。
+#+END_EXAMPLE
+
+** 个人项目
+-中兴集成测试自动化软件
+我利用业余时间,在secureCRT提供api的基础上,用python封装了命令行实现
+了测试的可视化并提供简单纠错功能,节省了大量的测试时间,且误差极小。
+
+** 网站
+
+http://yiddishkop.github.io/
+https://github.com/YiddishKop
+
+** 技术栈
+
+| language          |                                    |
+|-------------------+------------------------------------|
+| python            | $\bigstar\bigstar\bigstar\bigstar$ |
+| scala             | $\bigstar\bigstar\bigstar\bigstar$ |
+| java              | $\bigstar\bigstar\bigstar$         |
+| c                 | $\bigstar\bigstar\bigstar$         |
+|                   |                                    |
+| ML packages       |                                    |
+|-------------------+------------------------------------|
+| numpy             | $\bigstar\bigstar\bigstar$         |
+| scipy             | $\bigstar$                         |
+| matplotlib        | $\bigstar\bigstar\bigstar$         |
+| pandas            | $\bigstar\bigstar\bigstar$         |
+| bokeh             | $\bigstar\bigstar$                 |
+| xgboost           | $\bigstar$                         |
+|                   |                                    |
+| ML framework      |                                    |
+|-------------------+------------------------------------|
+| scikit-learn      | $\bigstar\bigstar\bigstar$         |
+| spark MLlib       | $\bigstar\bigstar\bigstar$         |
+|                   |                                    |
+| DL framework      |                                    |
+|-------------------+------------------------------------|
+| tensorflow        | $\bigstar\bigstar\bigstar$         |
+| keras             | $\bigstar\bigstar\bigstar$         |
+|                   |                                    |
+| BigData framework |                                    |
+|-------------------+------------------------------------|
+| spark             | $\bigstar\bigstar\bigstar$         |
+|                   |                                    |
+| other             |                                    |
+|-------------------+------------------------------------|
+| emacs             | $\bigstar\bigstar\bigstar\bigstar$ |
+| vim               | $\bigstar\bigstar$                 |
+| git               | $\bigstar\bigstar\bigstar$         |
+|                   |                                    |

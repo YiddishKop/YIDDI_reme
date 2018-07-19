@@ -1,0 +1,13 @@
+#+BEGIN_SRC latex
+  \begin{tabular}{cc}
+  \begin{minipage}{.5\textwidth}
+    c1, line1
+    c1, line2
+    c1, line3
+  \end{minipage} &
+  \begin{minipage}{.5\textwidth}
+    c2, line1
+    c2, line2
+  \end{minipage}
+  \end{tabular}
+#+END_SRC
