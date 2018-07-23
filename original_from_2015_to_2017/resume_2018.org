@@ -49,7 +49,6 @@ Email: yiddishkop@163.com
 时间 2005 — 2009
 #+END_EXAMPLE
 
-
 * 人工智能 MOOC 学习历程
   | university | course                      | my notes | homework | final project |
   |------------+-----------------------------+----------+----------+---------------|
@@ -74,7 +73,6 @@ Email: yiddishkop@163.com
 |                  |                | - 完成SDRAM缓存管理模块代码编写                                                                  |
 |                  |                | 4、集成自动化测试项目                                                                            |
 |                  |                | - 独立提出并负责集成自动化测试项目,基于secureCRT与python对命令行进行封装实现测试的自动化和可视化 |
-
 
 ** 深圳大坤管理咨询有限公司
 #+BEGIN_QUOTE
