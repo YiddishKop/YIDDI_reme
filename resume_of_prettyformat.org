@@ -1,5 +1,5 @@
 #+TITLE: 袁龙
-#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+EMAIL: yiddishkop@163.com
 #+LANGUAGE: english
 #+OPTIONS: toc:nil author:nil date:nil num:nil reveal_global_footer:t reveal_global_header:t reveal_progress:t
