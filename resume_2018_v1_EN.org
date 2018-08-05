@@ -53,7 +53,7 @@
 | Linux, Mac OS                                              | Emacs, Vim, Git                                    |
 
 * Work Experience
-*** Big Data Developer - Spark, SparkML
+*** Data Engineer - Spark, SparkML
 
     /Time : 01/2017 to Present, *ZTE* - NanJing/ .
 

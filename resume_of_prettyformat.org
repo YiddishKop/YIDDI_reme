@@ -1,78 +1,75 @@
-#+TITLE: Yuan Long
-#+REVEAL_ROOT: file:///home/yiddi/.spacemacs.d/reveal.js
-#+OPTIONS:     toc:nil num:nil author:nil date:nil
-#+LaTeX_HEADER: \pagenumbering{gobble}
-#+LaTeX_HEADER: \usepackage[left=0.3in,top=0.5in,right=0.3in,bottom=0.8in]{geometry}
-#+LATEX_CLASS_OPTIONS: [9pt]
-#+LaTeX_HEADER: \usepackage{palatino}
-#+LaTeX_HEADER: \usepackage{fancyhdr}
-#+LaTeX_HEADER: \usepackage{sectsty}
-#+LaTeX_HEADER: \usepackage{engord}
-#+LaTeX_HEADER: \usepackage{cite}
-#+LaTeX_HEADER: \usepackage{graphicx}
-#+LaTeX_HEADER: \usepackage{setspace}
-#+LaTeX_HEADER: \usepackage[compact]{titlesec}
-#+LaTeX_HEADER: \usepackage[center]{caption}
-#+LaTeX_HEADER: \usepackage{multirow}
-#+LaTeX_HEADER: \usepackage{ifthen}
-#+LaTeX_HEADER: \usepackage{longtable}
-#+LaTeX_HEADER: \usepackage{color}
-#+LaTeX_HEADER: \usepackage{amsmath}
-#+LaTeX_HEADER: \usepackage{listings}
-#+LaTeX_HEADER: \usepackage{pdfpages}
-#+LaTeX_HEADER: \usepackage{nomencl}	% For glossary
-#+LaTeX_HEADER: \usepackage{pdflscape}	% For landscape pictures and environment
-#+LaTeX_HEADER: \usepackage{verbatim} 	% For multiline comment environments
-#+LaTeX_HEADER: \usepackage[table]{xcolor}
+#+TITLE: 袁龙
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+EMAIL: yiddishkop@163.com
+#+LANGUAGE: english
+#+OPTIONS: toc:nil author:nil date:nil num:nil reveal_global_footer:t reveal_global_header:t reveal_progress:t
+#+REVEAL_MARGIN: 0.45
 
-|                 <r> | <l>                    | <l3> |      <r> | <l>         | <l3> |      <r> | <l>                |
-| /Current Position:/ | ZTE Big Data Developer |     | /Phone:/ | 18118801655 |     |  /Site:/ | [[https://yiddishkop.github.io/][yiddishkop's blog]]  |
-|      /Applied For:/ | ML Algorithm Engineer  |     |   /Add:/ | NanJing     |     | /Email:/ | yiddishkop@163.com |
-
-
+* Contact
+  + =Phone:=   18118801655
+  + =Email:=   [[mailto:yiddishkop@163.com][yiddishkop@163.com]]
+  + =Site :=   [[https://yiddishkop.github.io/][yiddishkop's blog]]
+  + =Addr :=   NanJing
 
 * Summary
-- 8+ years work experience in the fields of CS includes *Big Data Spark development* and *Machine Learning* technologies
-- Good knowledge of Data Mining including *Perceptron, LR, GBDT, SVM, RandomForest*
-- Good knowledge of Deep Learning including *CNN, RNN, GAN, LSTM*
-- Good knowledge of Reinforcement Learning including *Q-learning, SARSA*
-- Hands on experience in Machine Learning packages including *Numpy, Scipy, Matplotlib, Pandas, SparkML*
-- Hands on experience in Machine Learning framework including *Scikit-learn, Tensorflow*
-- Hands on experience in Spark ecosystem including *Spark, MapReduce, SparkSQL, SparkML*
-- Hands on experience in RDD architecture, implementing *Spark* operations on RDD and optimizing transformations
-- Hands on experience in *High Concurrency* by *Scala* and *AKKA*
-- Experience in Functional Programming Language including *Scala, Lisp*
+  #+ATTR_REVEAL: :frag (roll-in)
+  - *8* years working experience in computer science
+  - more concentrated in *Spark* and *Data Science*
+  - Good knowledge of Data Science, including 3 fields:
+    | ML | perceptron, lr, randomforest, svm, gbdt |
+    | DL | cnn, rnn, gan, lstm                     |
+    | RL | q-learning, sarsa, a3c                  |
+  #+ATTR_REVEAL: :frag (roll-in)
+  - Hands on experience in Machine Learning framework including *Scikit-learn, SparkML, Tensorflow, Keras*
+  - Hands on experience in RDD architecture, implementing *Spark* operations on RDD and optimizing transformations
+  - Hands on experience in *High Concurrency* by *Scala* and *AKKA*
+  - Experience in Functional Programming Language including *Scala, Lisp*
 
-* Technical Skills
-| *Machine Learning Framework*                               | *Spark Eco-system*                                 |
-| Numpy, Scipy, Matplotlib, Pandas, Scikit-learn, Tensorflow | Spark, SparkSQL, SparkML                           |
-|                                                            |                                                    |
-| *Programming Language*                                     | *Machine Learning Algorithms*                      |
-| Python, Scala, Java, C, lisp                               | LR, GBDT, SVM, RF, CNN, RNN, GAN, LSTM, Q-learning |
-|                                                            |                                                    |
-| *Operating Systems*                                        | *Develop tools*                                    |
-| Linux, Mac OS                                              | Emacs, Vim, Git                                    |
+  # * Technical Skills
+  # | *Machine Learning Framework*      | *Machine Learning Algorithms* |
+  # |-----------------------------------+-------------------------------|
+  # | Numpy, Scipy, Matplotlib, Pandas, | LR, GBDT, SVM, RF, CNN, RNN,  |
+  # | Scikit-learn, Tensorflow, Keras   | GAN, LSTM, Q-learning         |
+  # |                                   |                               |
+
+  # #+REVEAL: split
+  # |--------------------------+------------------------------|
+  # | *Spark Eco-system*       | *Programming Language*       |
+  # |--------------------------+------------------------------|
+  # | Spark, SparkSQL, SparkML | Python, Scala, Java, C, lisp |
+  # |                          |                              |
+
+
+  # #+REVEAL: split
+  # |--------------------------+------------------------------|
+  # | *Operating Systems*      | *Develop tools*              |
+  # |--------------------------+------------------------------|
+  # | Linux, Mac OS            | Emacs, Vim, Git              |
 
 * Work Experience
-** Big Data Developer - Spark, SparkML
+** Data Engineer @ [[https://www.zte.com.cn/][ZTE, NanJing]]
+   _Spark, SparkML_
 
-    /Time : 01/2017 to Present, *ZTE* - NanJing/ .
+   /03-2017 ~ present/
 
-    /Description : ZTE IPTV 'ZXCLOUD GoldenData' Big Data analytics platform./
+   /PROJ: IPTV GoldenData analytics platform for China Telecom/
 
-    - Migrated MapReduce jobs into *Spark RDD* transformations using Scala
-    - Worked with analytics team to build statistical models including *K-means, LR, GBDT* using *SparkML*
-    - Implemented Spark using *SparkSQL* for faster processing of data
-    - Developed Spark jobs to parse the *JSON* and *XML* data
+   #+REVEAL: split
+    - Migrate MapReduce jobs into *Spark RDD* transformations using Scala
+    - Work with analytics team to build statistical models including *K-means, LR, GBDT* using *SparkML*
+    - Implement Spark using *SparkSQL* for faster processing of data
+    - Develop Spark jobs to parse the *JSON* and *XML* data
     - Optimizing of existing algorithms in Hadoop using Spark Context, *SparkSQL*, *Data Frame* and *Pair RDD*.
     - Used *SBT* scripts to fetch, build, deploy application to development enviroment
 
-** Senior Software Developer - Embedded OS, C, Assembly Language
+** Big Data Engineer @ [[https://www.zte.com.cn/][ZTE, NanJing]]
+   _Spark, Hadoop_
 
-    /Time : 01/2015 to 12/2016, *ZTE* - NanJing/ .
+   /03-2015 ~ 12-2016/
 
-    /Description : ZTE OS development of 'T800' Router, 'GPON9112/9113' Optical Network Terminals/
+   /PROJ: IPTV GoldenData analytics platform for China Telecom/
 
+   #+REVEAL: split
     - Refactored the existing *bootloader* using assembly language
     - Completed API of the Routing Subsystem
     - Completed API of SDRAM cache memory management
@@ -80,25 +77,30 @@
     - Completed coding of *AIO(Assynchronized Non-blocking I/O)* protocal --- tr069
     - Maintained makefile of project
 
-** J2EE Developer - Hibernate, Spring, Java
-
-    /Time : 07/2009 to 12/2014, *DaKun management consultants,inc* - ShenZhen/ .
-
-    /Description : DaKun is a start-up focuses on company management consulting, this project is a HR management system/
-
+** J2EE Developer @ [[http://www.glswpx.com/][DaKun, ShenZhen]]
+   _Java, J2EE, Hibernate, Spring_
+   #+ATTR_REVEAL: :frag (highlight-green)
     - Website persistence layer development using *Hibernate* framework
     - Developed database schema and *SQL* queries for querying, inserting and managing database
     - Implemented various design patterns in the project such as *Builder, Singleton, Proxy patterns*.
-    - Performed unit testing using *JUnit*
 
 * Education
+** Study Program
+   #+DOWNLOADED: /tmp/screenshot.png @ 2018-08-05 08:50:47
+   [[file:Education/screenshot_2018-08-05_08-50-47.png]]
 
-| /study program/   |                   |                                              |                                |
-|                   | Master of Science | Computer Science                             |                                |
-|                   | University        | NanJing University of Science and Technology |                                |
-| /ML mooc courses/ |                   |                                              |                                |
-|                   | NTU               | [[https://www.csie.ntu.edu.tw/~htlin/course/mltech17spring/][ML Foundations & Technical]]                   | my lecNotes, HW, Final Project |
-|                   | NTU               | [[http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS17.html][DL with deep and structured]]                  | my lecNotes, HW, Final Project |
-|                   | Ucberkeley        | [[https://people.eecs.berkeley.edu/~jrs/189/][cs-189: Intro to ML]]                          | my lecNotes, HW, Final Project |
-|                   | Ucberkeley        | [[http://rail.eecs.berkeley.edu/deeprlcourse-fa17/index.html][cs-294: Deep Reinforcement Learning]]          | my lecNotes, HW, Final Project |
-|                   | Stanford          | [[https://web.stanford.edu/class/cs20si/2017/][cs-20SI: DL with Tensorflow]]                  | my lecNotes, HW, Final Project |
+   #+ATTR_REVEAL: :frag (appear)
+   - University : NanJing University of Science and Technology
+   - Master degree of Science : Computer Science
+
+** MOOCs online
+   #+ATTR_REVEAL: :frag (roll-in)
+   - [[https://www.csie.ntu.edu.tw/~htlin/course/mltech17spring/][ML Foundations & Technical]]  of Coursera
+   - [[http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS17.html][DL with deep and structured]] of Taiwan University
+   - [[https://people.eecs.berkeley.edu/~jrs/189/][cs-189: Introduction to ML]]  of uc Berkeley
+   - [[http://rail.eecs.berkeley.edu/deeprlcourse-fa17/index.html][cs-294: Deep Reinforcement]]  of uc Berkeley
+   - [[http://web.stanford.edu/class/cs224n/][cs-224: NLP with Deep Learning]] of Stanford
+   - [[https://cs231n.github.io/][cs-231: CNN for visual recognition]] of Stanford
+   - [[https://web.stanford.edu/class/cs20si/2017/][cs-20S: DL with Tensorflow]]  of Stanford
+
+* END
