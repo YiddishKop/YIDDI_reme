@@ -3,7 +3,8 @@
 #+EMAIL: yiddishkop@163.com
 #+LANGUAGE: english
 #+OPTIONS: toc:nil author:nil date:nil num:nil reveal_global_footer:t reveal_global_header:t reveal_progress:t
-#+REVEAL_MARGIN: 0.45
+#+REVEAL_MARGIN: 0.4
+
 
 * Contact
   + =Phone:=   18118801655
@@ -13,38 +14,20 @@
 
 * Summary
   #+ATTR_REVEAL: :frag (roll-in)
-  - *8* years working experience in computer science
-  - more concentrated in *Spark* and *Data Science*
-  - Good knowledge of Data Science, including 3 fields:
-    | ML | perceptron, lr, randomforest, svm, gbdt |
-    | DL | cnn, rnn, gan, lstm                     |
-    | RL | q-learning, sarsa, a3c                  |
-  #+ATTR_REVEAL: :frag (roll-in)
-  - Hands on experience in Machine Learning framework including *Scikit-learn, SparkML, Tensorflow, Keras*
-  - Hands on experience in RDD architecture, implementing *Spark* operations on RDD and optimizing transformations
-  - Hands on experience in *High Concurrency* by *Scala* and *AKKA*
-  - Experience in Functional Programming Language including *Scala, Lisp*
+  - *_8_* years computer science working experience, concentrate in _*Spark*_
+    and _*Data Science*_
+  - Hands on experience in _*Data Science Algorithms and Frameworks*_
+  - Hands on experience in *_High Concurrency_* using _*Scala*_ and _*AKKA*_
+  - Fluency in _*English*_ reading and writing
+  - _*Emacs*_ er
 
-  # * Technical Skills
-  # | *Machine Learning Framework*      | *Machine Learning Algorithms* |
-  # |-----------------------------------+-------------------------------|
-  # | Numpy, Scipy, Matplotlib, Pandas, | LR, GBDT, SVM, RF, CNN, RNN,  |
-  # | Scikit-learn, Tensorflow, Keras   | GAN, LSTM, Q-learning         |
-  # |                                   |                               |
-
-  # #+REVEAL: split
-  # |--------------------------+------------------------------|
-  # | *Spark Eco-system*       | *Programming Language*       |
-  # |--------------------------+------------------------------|
-  # | Spark, SparkSQL, SparkML | Python, Scala, Java, C, lisp |
-  # |                          |                              |
-
-
-  # #+REVEAL: split
-  # |--------------------------+------------------------------|
-  # | *Operating Systems*      | *Develop tools*              |
-  # |--------------------------+------------------------------|
-  # | Linux, Mac OS            | Emacs, Vim, Git              |
+* Technical Skills
+| _*Machine Learning toolkit*_                                      | _*Machine Learning Algo*_                                              |
+| Numpy, Scipy, Matplotlib, Pandas, Scikit-learn, Tensorflow, Keras | XGBOOST, YOLO, LR, GBDT, SVM, RF, CNN, RNN, GAN, LSTM, Q-learning, A3C |
+| _*Spark Eco-system*_                                              | _*Programming Language*_                                               |
+| Spark, SparkSQL, SparkML, AKKA                                    | Python, Scala, Java, C, lisp                                           |
+| _*Operating Systems*_                                             | _*Develop tools*_                                                      |
+| Linux, Mac OS                                                     | Emacs, Vim, Git                                                        |
 
 * Work Experience
 ** Data Engineer @ [[https://www.zte.com.cn/][ZTE, NanJing]]
@@ -52,44 +35,71 @@
 
    /03-2017 ~ present/
 
-   /PROJ: IPTV GoldenData analytics platform for China Telecom/
+   /PROJ: IPTV GoldenData, a analytics platform for China Telecom/
 
    #+REVEAL: split
-    - Migrate MapReduce jobs into *Spark RDD* transformations using Scala
-    - Work with analytics team to build statistical models including *K-means, LR, GBDT* using *SparkML*
-    - Implement Spark using *SparkSQL* for faster processing of data
-    - Develop Spark jobs to parse the *JSON* and *XML* data
-    - Optimizing of existing algorithms in Hadoop using Spark Context, *SparkSQL*, *Data Frame* and *Pair RDD*.
-    - Used *SBT* scripts to fetch, build, deploy application to development enviroment
+   - Migrate MapReduce jobs into _*Spark RDD*_ transformations using Scala
+   - Design and implement statistical models including _*K-means, LR, GBDT*_ using _*SparkML*_
+   - Implement Spark using _*SparkSQL*_ for faster processing of data
+   - Develop Spark jobs to parse the _*JSON*_ and _*XML*_ data
+   - Optimizing of existing algorithms in Hadoop using Spark Context,
+     _*SparkSQL*_, _*Data Frame*_ and _*Pair RDD*_.
+   - Used _*SBT*_ scripts to fetch, build, deploy application to development
+     enviroment
 
 ** Big Data Engineer @ [[https://www.zte.com.cn/][ZTE, NanJing]]
    _Spark, Hadoop_
 
-   /03-2015 ~ 12-2016/
+   /03-2016 ~ 12-2016/
 
-   /PROJ: IPTV GoldenData analytics platform for China Telecom/
+   /PROJ: PON manage system, a real-time event-driven web server for China Telecom/
 
    #+REVEAL: split
-    - Refactored the existing *bootloader* using assembly language
-    - Completed API of the Routing Subsystem
-    - Completed API of SDRAM cache memory management
-    - Proposed and completed an *automatically testing framework* under secureCRT using python
-    - Completed coding of *AIO(Assynchronized Non-blocking I/O)* protocal --- tr069
-    - Maintained makefile of project
+   - Involved in implementing API of real-time streaming ETL module using Scala
+     and utilizing _*Spark Core*_, _*Spark Streaming*_ and _*Spark SQL*_ API for
+     faster processing of terabytes log data.
+   - Involved in Completing _*high concurrency*_ API of RPC for management of
+     PON's connection, request, uploading error log.
+   - Debugging and identifying issues reported by QA with Hadoop jobs.
+
+** Senior Software Developer @ [[https://www.zte.com.cn/][ZTE, NanJing]]
+   _Embedded OS, C_
+
+   /01/2015 ~ 12/2016/ .
+
+   /PROJ: ZTE OS development of 'GPON9112/9113' Optical Network Terminals/
+
+   #+REVEAL: split
+   - Refactored the existing _*bootloader*_ using assembly language
+   - Completed API of the Routing Subsystem
+   - Completed API of SDRAM cache memory management
+   - Proposed and completed an _*automatically testing framework*_ under
+     secureCRT using python
+   - Completed coding of _*AIO(Assynchronized Non-blocking I/O)*_ protocal ---
+     tr069
+   - Maintained makefile of project
 
 ** J2EE Developer @ [[http://www.glswpx.com/][DaKun, ShenZhen]]
+
    _Java, J2EE, Hibernate, Spring_
-   #+ATTR_REVEAL: :frag (highlight-green)
-    - Website persistence layer development using *Hibernate* framework
-    - Developed database schema and *SQL* queries for querying, inserting and managing database
-    - Implemented various design patterns in the project such as *Builder, Singleton, Proxy patterns*.
+
+   /07/2009 ~ 12/2014/
+
+   /PROJ: DaKun is a start-up focuses on company management consulting, this project is a HR management system/
+
+   #+REVEAL: split
+   - Website persistence layer development using _*Hibernate*_ framework.
+   - Design and implement ORM layer of web server, using Hibernate.
+   - Involved in Controller(of MVC) component in _*Spring*_ framework.
+   - Developed database schema and _*SQL*_ queries for querying, inserting and managing database.
+   - Implemented various design patterns in the project such as _*Builder, Singleton, Proxy patterns*_.
 
 * Education
 ** Study Program
    #+DOWNLOADED: /tmp/screenshot.png @ 2018-08-05 08:50:47
    [[file:Education/screenshot_2018-08-05_08-50-47.png]]
 
-   #+ATTR_REVEAL: :frag (appear)
+   #+ATTR_REVEAL: :frag (roll-in)
    - University : NanJing University of Science and Technology
    - Master degree of Science : Computer Science
 
