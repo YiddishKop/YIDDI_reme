@@ -1,5 +1,6 @@
 #+TITLE: Yuan Long
 #+OPTIONS:     toc:nil num:nil author:nil date:nil
+
 #+LaTeX_HEADER: \pagenumbering{gobble}
 #+LaTeX_HEADER: \usepackage[left=0.3in,top=0.5in,right=0.3in,bottom=0.8in]{geometry}
 #+LATEX_CLASS_OPTIONS: [9pt]
@@ -23,6 +24,24 @@
 #+LaTeX_HEADER: \usepackage{pdflscape}	% For landscape pictures and environment
 #+LaTeX_HEADER: \usepackage{verbatim} 	% For multiline comment environments
 #+LaTeX_HEADER: \usepackage[table]{xcolor}
+
+#+OPTIONS: html-link-use-abs-url:nil html-postamble:nil html-preamble:nil
+#+OPTIONS: html-scripts:t html-style:t html5-fancy:nil tex:t
+#+HTML_DOCTYPE: xhtml-strict
+#+HTML_CONTAINER: div
+#+DESCRIPTION:
+#+KEYWORDS:
+#+HTML_LINK_HOME:
+#+HTML_LINK_UP:
+#+HTML_MATHJAX:
+#+HTML_HEAD:
+#+HTML_HEAD_EXTRA:
+#+SUBTITLE:
+#+INFOJS_OPT:
+#+CREATOR: <a href="https://www.gnu.org/software/emacs/">Emacs</a> 26.1 (<a href="https://orgmode.org">Org</a> mode 9.1.13)
+#+LATEX_HEADER:
+
+
 
 |                 <r> | <l>                    | <l3> |      <r> | <l>         | <l3> |      <r> | <l>                |
 | /Current Position:/ | ZTE Big Data Developer |     | /Phone:/ | 18118801655 |     |  /Site:/ | [[https://yiddishkop.github.io/][yiddishkop's blog]]  |

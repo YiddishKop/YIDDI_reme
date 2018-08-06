@@ -1,0 +1,116 @@
+#+TITLE: 袁龙
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+EMAIL: yiddishkop@163.com
+#+LANGUAGE: english
+#+OPTIONS: toc:nil author:nil date:nil num:nil reveal_global_footer:t reveal_global_header:t reveal_progress:t
+#+REVEAL_MARGIN: 0.4
+
+
+* 联系方式
+  + =Phone:=   18118801655
+  + =Email:=   [[mailto:yiddishkop@163.com][yiddishkop@163.com]]
+  + =Site :=   [[https://yiddishkop.github.io/][yiddishkop's blog]]
+  + =Addr :=   NanJing
+
+* 简单介绍
+  #+ATTR_REVEAL: :frag (roll-in)
+  - *_8_* 年工作经验,专注 Spark 与 Machine Learning
+  - 持续的跟踪最新 _*机器学习*_ 前沿论文
+  - 较好的机器学习 _*算法*_ 知识
+  - 较好的 _*工程框架*_ 的实际使用经验
+  - 较好的 Spark 与 AKKA 处理 _*高并发*_ 的经验
+  - 流畅的 _*英文*_ 读写能力
+  - _*函数式*_ 编程, _*Emacs*_ er
+
+* 技术栈
+| _*Machine Learning toolkit*_                                      | _*Machine Learning Algo*_                                              |
+| Numpy, Scipy, Matplotlib, Pandas, Scikit-learn, Tensorflow, Keras | XGBOOST, YOLO, LR, GBDT, SVM, RF, CNN, RNN, GAN, LSTM, Q-learning, A3C |
+| _*Spark Eco-system*_                                              | _*Programming Language*_                                               |
+| Spark, SparkSQL, SparkML, AKKA                                    | Python, Scala, Java, C, lisp                                           |
+| _*Operating Systems*_                                             | _*Develop tools*_                                                      |
+| Linux, Mac OS                                                     | Emacs, Vim, Git                                                        |
+
+* 工作经验
+** 数据科学软件工程师 @ [[https://www.zte.com.cn/][ZTE, NanJing]]
+   _Spark, SparkML, Scikit-Learn_
+
+   /03-2017 ~ present/
+
+   /PROJ: IPTV GoldenData, a analytics platform for China Telecom/
+
+   #+REVEAL: split
+   - Migrate MapReduce jobs into _*Spark RDD*_ transformations using Scala
+   - Design and implement statistical models including _*K-means, LR, GBDT*_ using _*SparkML*_
+   - Implement Spark using _*SparkSQL*_ for faster processing of data
+   - Develop Spark jobs to parse the _*JSON*_ and _*XML*_ data
+   - Optimizing of existing algorithms in Hadoop using Spark Context,
+     _*SparkSQL*_, _*Data Frame*_ and _*Pair RDD*_.
+   - Used _*SBT*_ scripts to fetch, build, deploy application to development
+     enviroment
+
+** 大数据工程师 @ [[https://www.zte.com.cn/][ZTE, NanJing]]
+   _Spark, Hadoop_
+
+   /03-2016 ~ 12-2016/
+
+   /PROJ: PON manage system, a real-time event-driven web server for China Telecom/
+
+   #+REVEAL: split
+   - Involved in implementing API of real-time streaming ETL module using Scala
+     and utilizing _*Spark Core*_, _*Spark Streaming*_ and _*Spark SQL*_ API for
+     faster processing of terabytes log data.
+   - Involved in Completing _*high concurrency*_ API of RPC for management of
+     PON's connection, request, uploading error log.
+   - Debugging and identifying issues reported by QA with Hadoop jobs.
+
+** 高级软件工程师 @ [[https://www.zte.com.cn/][ZTE, NanJing]]
+   _Embedded OS, C_
+
+   /01/2015 ~ 12/2016/ .
+
+   /PROJ: ZTE OS development of 'GPON9112/9113' Optical Network Terminals/
+
+   #+REVEAL: split
+   - Refactored the existing _*bootloader*_ using assembly language
+   - Completed API of the Routing Subsystem
+   - Completed API of SDRAM cache memory management
+   - Proposed and completed an _*automatically testing framework*_ under
+     secureCRT using python
+   - Completed coding of _*AIO(Assynchronized Non-blocking I/O)*_ protocal ---
+     tr069
+   - Maintained makefile of project
+
+** J2EE 软件工程师 @ [[http://www.glswpx.com/][DaKun, ShenZhen]]
+
+   _Java, J2EE, Hibernate, Spring_
+
+   /07/2009 ~ 12/2014/
+
+   /PROJ: DaKun is a start-up focuses on company management consulting, this project is a HR management system/
+
+   #+REVEAL: split
+   - Website persistence layer development using _*Hibernate*_ framework.
+   - Design and implement ORM layer of web server, using Hibernate.
+   - Involved in Controller(of MVC) component in _*Spring*_ framework.
+   - Developed database schema and _*SQL*_ queries for querying, inserting and managing database.
+   - Implemented various design patterns in the project such as _*Builder, Singleton, Proxy patterns*_.
+
+* 教育背景
+** 学历教育
+   #+DOWNLOADED: /tmp/screenshot.png @ 2018-08-05 08:50:47
+   [[file:Education/screenshot_2018-08-05_08-50-47.png]]
+
+   #+ATTR_REVEAL: :frag (roll-in)
+   - University : NanJing University of Science and Technology
+   - Master degree of Science : Computer Science
+
+** 在线 MOOCs
+   #+ATTR_REVEAL: :frag (roll-in)
+   - [[https://www.csie.ntu.edu.tw/~htlin/course/mltech17spring/][ML Foundations & Technical]]
+   - [[http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS17.html][DL with deep and structured]]
+   - [[https://people.eecs.berkeley.edu/~jrs/189/][cs-189: Introduction to ML]]
+   - [[http://rail.eecs.berkeley.edu/deeprlcourse-fa17/index.html][cs-294: Deep Reinforcement]]
+   - [[http://web.stanford.edu/class/cs224n/][cs-224: NLP with Deep Learning]]
+   - [[https://cs231n.github.io/][cs-231: CNN for visual recognition]]
+   - [[https://web.stanford.edu/class/cs20si/2017/][cs-20S: DL with Tensorflow]]
+* END
