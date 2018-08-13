@@ -25,13 +25,13 @@
 
 * 个人信息
   #+ATTR_LATEX: :environment longtable :align p{8cm} p{1cm}|| p{7cm}
-  | *_8_* 年工作经验,专注 Spark 框架, 深度学习, 强化学习 |   | =Phone:=	18118801655		 |
-  | 持续的跟踪最新 *_机器学习_* 前沿论文				    |   | =Email:=	[[mailto:yiddishkop@163.com][yiddishkop@163.com]]  |
-  | 较好的机器学习 *_算法_* 知识						    |   | =Site :=	[[https://yiddishkop.github.io/][yiddishkop's blog]]   |
-  | 较好的机器学习 *_工程框架_* 的实际使用经验		      |   | =Addr :=	NanJing			 |
-  | 较好的 Spark 与 akka 处理 *_高并发_* 的经验		     |   | 							    |
-  | 流畅的 *_英文_* 读写能力							    |   | 							    |
-  | *_函数式_* 编程, *_Emacs_* er						     |   | 							    |
+  | *_8_* 年工作经验,专注 Spark 框架, 深度学习, 强化学习  |   | =Phone:=	18118801655		 |
+  | 持续的跟踪最新 *_机器学习_* 前沿论文				  |   | =Email:=	[[mailto:yiddishkop@163.com][yiddishkop@163.com]]  |
+  | 较好的机器学习 *_算法_* 知识						  |   | =Site :=	[[https://yiddishkop.github.io/][yiddishkop's blog]]   |
+  | 较好的机器学习 *_工程框架_* 的实际使用经验		    |   | =Addr :=	NanJing			 |
+  | 较好的 Spark 与 akka 处理 *_高并发_* 的经验		   |   | 							    |
+  | 流畅的 *_英文_* 读写能力							  |   | 							    |
+  | *_函数式_* 编程, *_Emacs_* er						 |   | 							    |
 
 * 技术栈
   #+ATTR_LATEX: :environment longtable :align p{6cm} p{3cm} p{7cm}

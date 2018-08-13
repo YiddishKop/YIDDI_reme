@@ -2,7 +2,7 @@
 #+OPTIONS:     toc:nil num:nil author:nil date:nil
 
 #+LaTeX_HEADER: \pagenumbering{gobble}
-#+LaTeX_HEADER: \usepackage[left=0.3in,top=0.5in,right=0.3in,bottom=0.8in]{geometry}
+#+LaTeX_HEADER: \usepackage[left=0.3in,top=0.3in,right=0.3in,bottom=0.4in]{geometry}
 #+LATEX_CLASS_OPTIONS: [9pt]
 #+LaTeX_HEADER: \usepackage{palatino}
 #+LaTeX_HEADER: \usepackage{fancyhdr}
@@ -50,16 +50,16 @@
 
 
 * Summary
-- 8+ years work experience in the fields of CS includes *Big Data Spark development* and *Machine Learning* technologies
-- Good knowledge of Data Mining including *Perceptron, LR, GBDT, SVM, RandomForest*
-- Good knowledge of Deep Learning including *CNN, RNN, GAN, LSTM*
-- Good knowledge of Reinforcement Learning including *Q-learning, SARSA*
-- Hands on experience in Machine Learning packages including *Numpy, Scipy, Matplotlib, Pandas, SparkML*
-- Hands on experience in Machine Learning framework including *Scikit-learn, Tensorflow*
-- Hands on experience in Spark ecosystem including *Spark, MapReduce, SparkSQL, SparkML*
-- Hands on experience in RDD architecture, implementing *Spark* operations on RDD and optimizing transformations
-- Hands on experience in *High Concurrency* by *Scala* and *AKKA*
-- Experience in Functional Programming Language including *Scala, Lisp*
+  - 8 years work experience in the fields of CS includes *Big Data Spark development* and *Machine Learning* technologies
+  - Good knowledge of Data Mining including *Perceptron, LR, GBDT, SVM, RandomForest*
+  - Good knowledge of Deep Learning including *CNN, RNN, GAN, LSTM*
+  - Good knowledge of Reinforcement Learning including *Q-learning, SARSA*
+  - Hands on experience in Machine Learning packages including *Numpy, Scipy, Matplotlib, Pandas, SparkML*
+  - Hands on experience in Machine Learning framework including *Scikit-learn, Tensorflow*
+  - Hands on experience in Spark ecosystem including *Spark, MapReduce, SparkSQL, SparkML*
+  - Hands on experience in RDD architecture, implementing *Spark* operations on RDD and optimizing transformations
+  - Hands on experience in *High Concurrency* by *Scala* and *AKKA*
+  - Experience in Functional Programming Language including *Scala, Lisp*
 
 * Technical Skills
 | *Machine Learning Framework*                               | *Spark Eco-system*                                 |
@@ -121,13 +121,14 @@
       tr069
     - Maintained makefile of project
 * Education
-
-| /study program/   |                   |                                              |                                |
-|                   | Master of Science | Computer Science                             |                                |
-|                   | University        | NanJing University of Science and Technology |                                |
-| /ML mooc courses/ |                   |                                              |                                |
-|                   | NTU               | [[https://www.csie.ntu.edu.tw/~htlin/course/mltech17spring/][ML Foundations & Technical]]                   | my lecNotes, HW, Final Project |
-|                   | NTU               | [[http://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS17.html][DL with deep and structured]]                  | my lecNotes, HW, Final Project |
-|                   | Ucberkeley        | [[https://people.eecs.berkeley.edu/~jrs/189/][cs-189: Intro to ML]]                          | my lecNotes, HW, Final Project |
-|                   | Ucberkeley        | [[http://rail.eecs.berkeley.edu/deeprlcourse-fa17/index.html][cs-294: Deep Reinforcement Learning]]          | my lecNotes, HW, Final Project |
-|                   | Stanford          | [[https://web.stanford.edu/class/cs20si/2017/][cs-20SI: DL with Tensorflow]]                  | my lecNotes, HW, Final Project |
+** Study program
+   - NanJing University of Science and Technology
+   - Computer Science Bachelor's Degree
+** Online moocs
+   #+ATTR_LATEX: :environment longtable :align p{9cm} p{2cm} p{7cm}
+   | TaiDa ML Foundations & Technical            |   |          |
+   | TaiDa DL with deep and structured           |   | [[https://yiddishkop.github.io/DataScience.html#orgeeb8a29][my notes]] |
+   | Ucberkeley cs-189: Introduction to ML       |   | [[https://yiddishkop.github.io/DataScience.html#org5eba30f][my notes]] |
+   | Ucberkeley cs-294: Deep Reinforcement       |   |          |
+   | Stanford cs-231: CNN for visual recognition |   |          |
+   | Stanford cs-20S: DL with Tensorflow         |   | [[https://yiddishkop.github.io/DataScience.html#org7a6e1b3][my notes]] |
