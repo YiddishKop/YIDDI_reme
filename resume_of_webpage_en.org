@@ -17,7 +17,7 @@
   - *_8_* years computer science working experience, concentrate in _*Spark*_
     and _*Data Science*_
   - Hands on experience in _*Data Science Algorithms and Frameworks*_
-  - Hands on experience in *_High Concurrency_* using _*Scala*_ and _*AKKA*_
+  - Hands on experience in *_High Concurrency_* using _*Scala*_ and _*akka*_
   - Fluency in _*English*_ reading and writing
   - _*Emacs*_ er
 

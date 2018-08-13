@@ -18,7 +18,7 @@
   - 持续的跟踪最新 _*机器学习*_ 前沿论文
   - 较好的机器学习 _*算法*_ 知识
   - 较好的 _*工程框架*_ 的实际使用经验
-  - 较好的 Spark 与 AKKA 处理 _*高并发*_ 的经验
+  - 较好的 Spark 与 akka 处理 _*高并发*_ 的经验
   - 流畅的 _*英文*_ 读写能力
   - _*函数式*_ 编程, _*Emacs*_ er
 
@@ -101,8 +101,8 @@
    [[file:Education/screenshot_2018-08-05_08-50-47.png]]
 
    #+ATTR_REVEAL: :frag (roll-in)
-   - University : NanJing University of Science and Technology
-   - Master degree of Science : Computer Science
+   - 南京理工大学
+   - 计算机科学本科学士学位
 
 ** 在线 MOOCs
    #+ATTR_REVEAL: :frag (roll-in)
