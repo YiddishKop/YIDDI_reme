@@ -25,13 +25,13 @@
 
 * 个人信息
   #+ATTR_LATEX: :environment longtable :align p{8cm} p{1cm}|| p{7cm}
-  | *_8_* 年工作经验,专注 Spark 框架, 深度学习, 强化学习  |   | =Phone:=	18118801655		 |
-  | 持续的跟踪最新 *_机器学习_* 前沿论文				  |   | =Email:=	[[mailto:yiddishkop@163.com][yiddishkop@163.com]]  |
-  | 较好的机器学习 *_算法_* 知识						  |   | =Site :=	[[https://yiddishkop.github.io/][yiddishkop's blog]]   |
-  | 较好的机器学习 *_工程框架_* 的实际使用经验		    |   | =Addr :=	NanJing			 |
-  | 较好的 Spark 与 akka 处理 *_高并发_* 的经验		   |   | 							    |
-  | 流畅的 *_英文_* 读写能力							  |   | 							    |
-  | *_函数式_* 编程, *_Emacs_* er						 |   | 							    |
+  | *_8_* 年工作经验,专注 Spark 框架, 深度学习, 强化学习  |   | ~Phone:~	18118801655		       |
+  | 持续的跟踪最新 *_机器学习_* 前沿论文				  |   | ~Email:~	[[mailto:yiddishkop@163.com][yiddishkop@163.com]]        |
+  | 较好的机器学习 *_算法_* 知识						  |   | ~Site :~	[[https://yiddishkop.github.io/][yiddishkop's blog]] or [[https://yiddi.coding.me][here]] |
+  | 较好的机器学习 *_工程框架_* 的实际使用经验		    |   | ~Addr :~	NanJing			       |
+  | 较好的 Spark 与 akka 处理 *_高并发_* 的经验		   |   | 							          |
+  | 流畅的 *_英文_* 读写能力							  |   | 							          |
+  | *_函数式_* 编程, *_Emacs_* er						 |   | 							          |
 
 * 技术栈
   #+ATTR_LATEX: :environment longtable :align p{6cm} p{3cm} p{7cm}
@@ -74,7 +74,7 @@
 *** 高级软件工程师 @中兴,南京
     _Embedded OS, C_ .
 
-    /01/2015 ~ 12/2016/ .
+    /01/2015 ~ 02/2016/ .
 
     /PROJ: 中兴 GPON'9112/9113'光网络终端系统开发/ .
 
@@ -90,9 +90,9 @@
    - 计算机科学与技术本科学士学位
 ** 完成 MOOCs
    #+ATTR_LATEX: :environment longtable :align p{9cm} p{2cm} p{7cm}
-   | TaiDa ML Foundations & Technical            |   |          |
-   | TaiDa DL with deep and structured           |   | [[https://yiddishkop.github.io/DataScience.html#orgeeb8a29][my notes]] |
-   | Ucberkeley cs-189: Introduction to ML       |   | [[https://yiddishkop.github.io/DataScience.html#org5eba30f][my notes]] |
-   | Ucberkeley cs-294: Deep Reinforcement       |   |          |
-   | Stanford cs-231: CNN for visual recognition |   |          |
-   | Stanford cs-20S: DL with Tensorflow         |   | [[https://yiddishkop.github.io/DataScience.html#org7a6e1b3][my notes]] |
+   | TaiDa ML Foundations & Technical            |   |                  |
+   | TaiDa DL with deep and structured           |   | [[https://yiddishkop.github.io/DataScience.html#orgeeb8a29][my notes]] or [[https://yiddi.coding.me/DataScience.html#org68e1611][here]] |
+   | Ucberkeley cs-189: Introduction to ML       |   | [[https://yiddishkop.github.io/DataScience.html#org5eba30f][my notes]] or [[https://yiddi.coding.me/DataScience.html#org876e9fa][here]] |
+   | Ucberkeley cs-294: Deep Reinforcement       |   |                  |
+   | Stanford cs-231: CNN for visual recognition |   |                  |
+   | Stanford cs-20S: DL with Tensorflow         |   | [[https://yiddishkop.github.io/DataScience.html#org7a6e1b3][my notes]] or [[https://yiddi.coding.me/DataScience.html#orgfc192fb][here]] |

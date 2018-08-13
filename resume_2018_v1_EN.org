@@ -107,7 +107,7 @@
 *** Senior Software Developer @ [[https://www.zte.com.cn/][ZTE, NanJing]]
     _Embedded OS, C_
 
-    /01/2015 ~ 12/2016/ .
+    /01/2015 ~ 02/2016/ .
 
     /PROJ: ZTE OS development of 'GPON9112/9113' Optical Network Terminals/
 
