@@ -1,4 +1,4 @@
-#+TITLE: 袁龙简历
+# #+TITLE: 袁龙简历
 #+OPTIONS:     toc:nil num:nil author:nil date:nil
 #+LaTeX_HEADER: \usepackage[left=0.3in,top=0.3in,right=0.3in,bottom=1in]{geometry}
 #+LATEX_CLASS_OPTIONS: [10pt]
@@ -23,41 +23,79 @@
 #+LaTeX_HEADER: \usepackage{verbatim} 	% For multiline comment environments
 #+LaTeX_HEADER: \usepackage[table]{xcolor}
 
+#+LATEX_HEADER: \usepackage{titlesec}
+#+LATEX_HEADER: \titleformat*{\section}{\color{black}\normalfont\large\bfseries}
+#+LATEX_HEADER: \titleformat*{\subsection}{\color{black}}
+#+LATEX_HEADER: \titleformat*{\paragraph}{\color{black}}
+#+latex_header: \hypersetup{colorlinks=true,linkcolor=blue}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,urlcolor=blue}
+
+#+BEGIN_EXPORT latex
+\begin{center}
+{\Large \textbf{袁龙  简历}\par}
+\end{center}
+#+END_EXPORT
+
+#+ATTR_LATEX: :environment longtable :align
+| 手机: 18118801655 | 邮箱: yiddishkop@163.com | 博客 : https://yiddi.coding.me | 应聘: 机器学习算法工程师 |
+------------------
 * 个人信息
-  #+ATTR_LATEX: :environment longtable :align p{8cm} p{1cm}|| p{7cm}
-  | *_8_* 年工作经验,专注 Spark 框架, 深度学习, 强化学习  |   | ~Phone:~	18118801655		       |
-  | 持续的跟踪最新 *_机器学习_* 前沿论文				  |   | ~Email:~	[[mailto:yiddishkop@163.com][yiddishkop@163.com]]        |
-  | 较好的机器学习 *_算法_* 知识						  |   | ~Site :~	[[https://yiddishkop.github.io/][yiddishkop's blog]] or [[https://yiddi.coding.me][here]] |
-  | 较好的机器学习 *_工程框架_* 的实际使用经验		    |   | ~Addr :~	NanJing			       |
-  | 较好的 Spark 与 akka 处理 *_高并发_* 的经验		   |   | 							          |
-  | 流畅的 *_英文_* 读写能力							  |   | 							          |
-  | *_函数式_* 编程, *_Emacs_* er						 |   | 							          |
+#+ATTR_LATEX: :environment longtable :align p{10cm} p{1cm} p{5cm}
+| 1. 较好的 *数学功底*: 信息论, 数值优化, 概率论, 线性代数 |   |   |
+| 2. 广泛的 *机器学习* *算法知识*                          |   |   |
+| 3. 熟练的 *机器学习* *工程框架* 使用经验                 |   |   |
+| 4. 较好的 *大数据* 工程经验: spark 框架                  |   |   |
+| 5. 较好的 *高并发* 编程经验: scala 和 akka               |   |   |
+| 6. 持续跟踪机器学习 *前沿论文*, 英文阅读无障碍           |   |   |
+| 7. 坚持在线课程学习 *自我驱动*                       |   |   |
+
+ # | *_8_* 年工作经验,专注 Spark 框架, 深度学习, 强化学习 |   | ~Phone:~18118801655               |
+ # | 持续的跟踪最新 *_机器学习_* 前沿论文                 |   | ~Email:~[[mailto:yiddishkop@163.com][yiddishkop@163.com]]        |
+ # | 较好的机器学习 *_算法_* 知识                         |   | ~Site :~[[https://yiddishkop.github.io/][yiddishkop's blog]] or [[https://yiddi.coding.me][here]] |
+ # | 较好的机器学习 *_工程框架_* 的实际使用经验           |   | ~Addr :~NanJing                   |
+ # | 较好的 Spark 与 akka 处理 *_高并发_* 的经验          |   |                                   |
+ # | 流畅的 *_英文_* 读写能力                             |   |                                   |
+ # | *_函数式_* 编程, *_Emacs_* er                        |   |                                   |
 
 * 技术栈
   #+ATTR_LATEX: :environment longtable :align p{6cm} p{3cm} p{7cm}
-  | _*Machine Learning toolkit*_                                          |      | _*Machine Learning Algo*_                                                 |
-  | Numpy, Scipy, Matplotlib, Pandas, Scikit-learn, Tensorflow, Keras     | 	 | XGBOOST, YOLO, LR, GBDT, SVM, RF, CNN, RNN, GAN, LSTM, Q-learning, A3C    |
-  |                                                                       | 	 |                                                                           |
-  | _*Spark Eco-system*_												  | 	 | _*Programming Language*_												  |
-  | Spark, SparkSQL, SparkML, AKKA									    | 	 | Python, Scala, Java, C, lisp											  |
-  |                                                                       | 	 |                                                                           |
-  | _*Operating Systems*_												 | 	 | _*Develop tools*_														 |
-  | Linux, Mac OS														 | 	 | Emacs, Vim, Git														   |
+  | *_机器学习工程库_*                                                |   | *_机器学习算法_*                                                       |
+  | Numpy, Scipy, Matplotlib, Pandas, Scikit-learn, Tensorflow, Keras |   | XGBOOST, YOLO, LR, GBDT, SVM, RF, CNN, RNN, GAN, LSTM, Q-learning, A3C |
+  |                                                                   |   |                                                                        |
+  | *_大数据框架_*                                                    |   | *_编程语言_*                                                           |
+  | Spark, SparkSQL, SparkML, AKKA                                    |   | Python = Scala > lisp = Java > C                                       |
+  |                                                                   |   |                                                                        |
+  | *_常用操作系统_*                                                  |   | *_编程工具_*                                                           |
+  | Linux, Mac OS                                                     |   | *Emacs*, Vim, Git                                                      |
 
 * 工作经验
 *** 数据科学软件工程师 @中兴,南京
-    _Spark, SparkML, Scikit-Learn_
+    _Tensorflow, Keras, Spark, SparkML, Scikit-Learn_
 
     /03-2017 ~ present/
 
     /PROJ: 中兴 IPTV GoldenData, 大数据处理分析平台/
 
-    - 使用 *_Scikit-Learn, python_* 预研机器学习算法模型, 向产品部汇报解释性说明文档.
-    - 使用 *_Spark RDD_* 实现 IPTV 服务器后端用户 log 数据提取/分析/预测, 提升原系统 MapReduce 性能.
-    - 基于 *_SparkML_*, 使用 *_K-means, LR, GBDT, tSNE, PCA_* 等算法模型对 IPTV 用户购买行为进行可视化/特征提取/分析预测.
-    - 独立完成基于 *_scala_* 开发 JSON 与 XML 文件解析模块, 解析用户请求消息并转换成 SparkSQL 语句, 完成数据查询.
-    - 使用 *_SparkSQL_* 完成部分用户 log 数据批量建/查/删/改工作.
-    - 使用 *_SparkSQL, Data Fram, Pair RDD_* 优化原有 Hadoop 架构下视频影像产品数据 ELT 操作.
+    - 根据近期 paper(arXiv), 使用
+      *Tensorflow/Keras/Scikit-Learn/Numpy/Scipy/Pandas/Matplotlib* 预研机器学
+      习算法, (包括,不限于:
+       -  *GAN* series,
+       -  *Attention based RNN* for seq2seq,
+       -  *CNN* enhanced by *spatial transformer layer*,
+       -  *VAE* for noise tolerance image classification,
+       -  Deep Q-Learning for *overcoming discrete optimization problem of Gradient Descent*,
+       -  *Aggregation Model* like Xgboost, GBDT,
+       -  *HMM/CRF* for sequence labeling).
+    - 根据具体项目和应用场景, 参与机器学习 *算法模型评估和选择*, 撰写高可解释性
+      说明文档.
+    - 基于 *SparkML*, 使用 *K-means, LR, GBDT, tSNE, PCA* 等算法模型对 IPTV
+      用户购买行为进行可视化/特征提取/分析预测.
+    - 使用 *Spark RDD* 实现 IPTV 服务器后端用户 log 数据提取/分析/预测, 提升原
+      系统 MapReduce 性能.
+    - 独立完成基于 *scala* 开发 JSON 与 XML 文件解析模块, 解析用户请求消息并转
+      换成 SparkSQL 语句, 完成数据查询.
+    - 使用 *SparkSQL* 完成部分用户 log 数据批量建/查/删/改工作. 并结合 *Data
+      Frame, Pair RDD* 优化原有 Hadoop 架构下视频影像产品数据 ELT 操作.
     - 维护部分 SBT 脚本, 完成工程部署/构建
 
 *** 大数据工程师 @中兴,南京
@@ -67,8 +105,8 @@
 
  /PROJ: 电信光猫网络服务器, 基于事件驱动实时管理/ .
 
-    - 使用 *_Spark Core, Spark Streaming, Spark SQL_*, 参与实现实时流数据 ETL 模型, 提供实时数据用于数据分析.
-    - 参与实现基于远程过程调用 (RPC) 的 *_高并发_* API, 用于管理 *_100w+_* 电信光猫的连接/业务请求/错误日志上传.
+    - 使用 *Spark Core, Spark Streaming, Spark SQL*, 参与实现实时流数据 ETL 模型, 提供实时数据用于数据分析.
+    - 参与实现基于远程过程调用 (RPC) 的 *高并发* API, 用于管理 *100w+* 电信光猫的连接/业务请求/错误日志上传.
     - 参与定位和修正部分 Spark 问题.
 
 *** 高级软件工程师 @中兴,南京
@@ -78,7 +116,7 @@
 
     /PROJ: 中兴 GPON'9112/9113'光网络终端系统开发/ .
 
-    - 提出并使用 python 独立完成基于 secureCRT 的 *_全模块自动测试_* 框架, 帮助测试部节省大量测试时间.
+    - 提出并使用 python 独立完成基于 secureCRT 的 *全模块自动测试* 框架, 帮助测试部节省大量测试时间.
     - 参与 bootloader 修改.
     - 参与完成 GPON9112/9113 路由子系统 API 的编写.
     - 参与完成 GPON9112/9113 SDRAM 缓存系统内存管理模块 API 编写
@@ -89,10 +127,9 @@
    - 南京理工大学
    - 计算机科学与技术本科学士学位
 ** 完成 MOOCs
-   #+ATTR_LATEX: :environment longtable :align p{9cm} p{2cm} p{7cm}
-   | TaiDa ML Foundations & Technical            |   |                  |
-   | TaiDa DL with deep and structured           |   | [[https://yiddishkop.github.io/DataScience.html#orgeeb8a29][my notes]] or [[https://yiddi.coding.me/DataScience.html#org68e1611][here]] |
-   | Ucberkeley cs-189: Introduction to ML       |   | [[https://yiddishkop.github.io/DataScience.html#org5eba30f][my notes]] or [[https://yiddi.coding.me/DataScience.html#org876e9fa][here]] |
-   | Ucberkeley cs-294: Deep Reinforcement       |   |                  |
-   | Stanford cs-231: CNN for visual recognition |   |                  |
-   | Stanford cs-20S: DL with Tensorflow         |   | [[https://yiddishkop.github.io/DataScience.html#org7a6e1b3][my notes]] or [[https://yiddi.coding.me/DataScience.html#orgfc192fb][here]] |
+   仅列出机器学习相关课程:
+   #+ATTR_LATEX: :environment longtable :align p{9cm} p{9cm}
+   | [[https://yiddi.coding.me/DataScience.html#org876e9fa][加州伯克利 cs-189: 人工智能及其数学基础]] | [[https://yiddi.coding.me/DataScience.html#org68e1611][加州伯克利 cs-294: 深度强化学习]]      |
+   | [[https://yiddi.coding.me/DataScience.html#org68e1611][斯坦福 cs-231: 卷积神经网络与图像识别]]   | [[https://yiddi.coding.me/DataScience.html#orgfc192fb][斯坦福 cs-20si: 深度学习与Tensorflow]] |
+   | [[https://yiddi.coding.me/DataScience.html#org68e1611][台大机器学习基石与技法]]                  | [[https://yiddi.coding.me/DataScience.html#org68e1611][台大深度学习研究]]                     |
+   | [[https://yiddi.coding.me/Math.html#orga49ffd2][斯坦福: 群论]]                            |                                      |
