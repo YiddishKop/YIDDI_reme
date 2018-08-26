@@ -127,9 +127,8 @@
    - 南京理工大学
    - 计算机科学与技术本科学士学位
 ** 完成 MOOCs
-   仅列出机器学习相关课程:
+   =(仅列出机器学习相关课程)= :
    #+ATTR_LATEX: :environment longtable :align p{9cm} p{9cm}
    | [[https://yiddi.coding.me/DataScience.html#org876e9fa][加州伯克利 cs-189: 人工智能及其数学基础]] | [[https://yiddi.coding.me/DataScience.html#org68e1611][加州伯克利 cs-294: 深度强化学习]]      |
    | [[https://yiddi.coding.me/DataScience.html#org68e1611][斯坦福 cs-231: 卷积神经网络与图像识别]]   | [[https://yiddi.coding.me/DataScience.html#orgfc192fb][斯坦福 cs-20si: 深度学习与Tensorflow]] |
-   | [[https://yiddi.coding.me/DataScience.html#org68e1611][台大机器学习基石与技法]]                  | [[https://yiddi.coding.me/DataScience.html#org68e1611][台大深度学习研究]]                     |
    | [[https://yiddi.coding.me/Math.html#orga49ffd2][斯坦福: 群论]]                            |                                      |
