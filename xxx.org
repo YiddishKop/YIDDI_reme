@@ -1,0 +1,98 @@
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage{xcolor}
+#+LATEX_HEADER: \usepackage{xeCJK}
+#+LATEX_HEADER: \usepackage{lmodern}
+#+LATEX_HEADER: \usepackage{verbatim}
+#+LATEX_HEADER: \usepackage{fixltx2e}
+#+LATEX_HEADER: \usepackage{longtable}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage{tikz}
+#+LATEX_HEADER: \usepackage{wrapfig}
+#+LATEX_HEADER: \usepackage{soul}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{listings}
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \usepackage{algorithm}
+#+LATEX_HEADER: \usepackage{algorithmic}
+#+LATEX_HEADER: \usepackage{marvosym}
+#+LATEX_HEADER: \usepackage{wasysym}
+#+LATEX_HEADER: \usepackage{latexsym}
+#+LATEX_HEADER: \usepackage{natbib}
+#+LATEX_HEADER: \usepackage{fancyhdr}
+#+LATEX_HEADER: \usepackage[xetex,colorlinks=true,CJKbookmarks=true, linkcolor=blue, urlcolor=blue, menucolor=blue]{hyperref}
+#+LATEX_HEADER: \usepackage{fontspec,xunicode,xltxtra}
+#+LATEX_HEADER: \setmainfont[BoldFont=Adobe Heiti Std]{Adobe Song Std}<br>
+#+LATEX_HEADER: \setsansfont[BoldFont=Adobe Heiti Std]{AR PL UKai CN}<br>
+#+LATEX_HEADER: \setmonofont{Bitstream Vera Sans Mono}<br>
+#+LATEX_HEADER: \newcommand
+#+LATEX_HEADER: \fontnamemono{AR PL UKai CN}%等宽字体
+#+LATEX_HEADER: \newfontinstance
+#+LATEX_HEADER: \MONO{
+#+LATEX_HEADER: \fontnamemono}
+#+LATEX_HEADER: \newcommand{
+#+LATEX_HEADER: \mono}[1]{{
+#+LATEX_HEADER: \MONO #1}}
+#+LATEX_HEADER: \setCJKmainfont[Scale=0.9]{Adobe Heiti Std}%中文字体
+#+LATEX_HEADER: \setCJKmonofont[Scale=0.9]{Adobe Heiti Std}
+#+LATEX_HEADER: \hypersetup{unicode=true}
+#+LATEX_HEADER: \geometry{a4paper, textwidth=6.5in, textheight=10in, marginparsep=7pt, marginparwidth=.6in}
+#+LATEX_HEADER: \definecolor{foreground}{RGB}{220,220,204}%浅灰
+#+LATEX_HEADER: \definecolor{background}{RGB}{62,62,62}%浅黑
+#+LATEX_HEADER: \definecolor{preprocess}{RGB}{250,187,249}%浅紫
+#+LATEX_HEADER: \definecolor{var}{RGB}{239,224,174}%浅肉色
+#+LATEX_HEADER: \definecolor{string}{RGB}{154,150,230}%浅紫色
+#+LATEX_HEADER: \definecolor{type}{RGB}{225,225,116}%浅黄
+#+LATEX_HEADER: \definecolor{function}{RGB}{140,206,211}%浅天蓝
+#+LATEX_HEADER: \definecolor{keyword}{RGB}{239,224,174}%浅肉色
+#+LATEX_HEADER: \definecolor{comment}{RGB}{180,98,4}%深褐色
+#+LATEX_HEADER: \definecolor{doc}{RGB}{175,215,175}%浅铅绿
+#+LATEX_HEADER: \definecolor{comdil}{RGB}{111,128,111}%深灰
+#+LATEX_HEADER: \definecolor{constant}{RGB}{220,162,170}%粉红
+#+LATEX_HEADER: \definecolor{buildin}{RGB}{127,159,127}%深铅绿
+#+LATEX_HEADER: \punctstyle{kaiming}
+#+LATEX_HEADER: \title{}
+#+LATEX_HEADER: \fancyfoot[C]{
+#+LATEX_HEADER: \bfseries
+#+LATEX_HEADER: \thepage}
+#+LATEX_HEADER: \chead{
+#+LATEX_HEADER: \MakeUppercase
+#+LATEX_HEADER: \sectionmark}
+#+LATEX_HEADER: \pagestyle{fancy}
+#+LATEX_HEADER: \tolerance=1000
+* hello
+| 1 | 2 |
+|---+---|
+| 2 | 1 |
+
+** 你好
+
+| 手机: 18118801655 | 邮箱: yiddishkop@163.com | 博客 : https://yiddi.coding.me | 应聘: 机器学习算法工程师 |
+
+
+** 我也好
+
+    _Tensorflow, Keras, Spark, SparkML, Scikit-Learn_
+
+    /03-2017 ~ present/
+
+    /PROJ: 中兴 IPTV GoldenData, 大数据处理分析平台/
+
+    - 根据近期 paper(arXiv), 使用
+      *Tensorflow/Keras/Scikit-Learn/Numpy/Scipy/Pandas/Matplotlib* 预研机器学
+      习算法, (包括,不限于:
+      - *Attention based RNN* for seq2seq,
+      - *CNN* enhanced by *spatial transformer layer*,
+      - *VAE* for noise tolerance image classification,
+      - *Aggregation Model* like Xgboost, GBDT,
+      - *HMM/CRF* for sequence labeling).
+    - 根据具体项目和应用场景, 参与机器学习 *算法模型评估和选择*, 撰写高可解释性
+      说明文档.
+    - 基于 *SparkML*, 使用 *K-means, LR, GBDT, tSNE, PCA* 等算法模型对 IPTV
+      用户购买行为进行可视化/特征提取/分析预测.
+    - 使用 *Spark RDD* 实现 IPTV 服务器后端用户 log 数据提取/分析/预测, 提升原
+      系统 MapReduce 性能.
+    - 独立完成基于 *scala* 开发 JSON 与 XML 文件解析模块, 解析用户请求消息并转
+      换成 SparkSQL 语句, 完成数据查询.
+    - 使用 *SparkSQL* 完成部分用户 log 数据批量建/查/删/改工作. 并结合 *Data
+      Frame, Pair RDD* 优化原有 Hadoop 架构下视频影像产品数据 ELT 操作.
+    - 维护部分 SBT 脚本, 完成工程部署/构建

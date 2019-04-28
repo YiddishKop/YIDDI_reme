@@ -39,10 +39,10 @@
 #+ATTR_LATEX: :environment longtable :align
 | 手机: 18118801655 | 邮箱: yiddishkop@163.com | 博客 : https://yiddi.coding.me | 应聘: 机器学习算法工程师 |
 ------------------
-* 个人信息
+* 个人评价
 #+ATTR_LATEX: :environment longtable :align p{10cm} p{1cm} p{5cm}
-| 1. 较好的 *数学功底*: 信息论, 数值优化, 概率论, 线性代数 |   |   |
-| 2. 广泛的 *机器学习* *算法知识*                          |   |   |
+| 1. 扎实的 *数学和统计学基础*  |   |   |
+| 2. 扎实的 *机器学习* *算法知识*                          |   |   |
 | 3. 熟练的 *机器学习* *工程框架* 使用经验                 |   |   |
 | 4. 较好的 *大数据* 工程经验: spark 框架                  |   |   |
 | 5. 较好的 *高并发* 编程经验: scala 和 akka               |   |   |
@@ -79,13 +79,11 @@
     - 根据近期 paper(arXiv), 使用
       *Tensorflow/Keras/Scikit-Learn/Numpy/Scipy/Pandas/Matplotlib* 预研机器学
       习算法, (包括,不限于:
-       -  *GAN* series,
-       -  *Attention based RNN* for seq2seq,
-       -  *CNN* enhanced by *spatial transformer layer*,
-       -  *VAE* for noise tolerance image classification,
-       -  Deep Q-Learning for *overcoming discrete optimization problem of Gradient Descent*,
-       -  *Aggregation Model* like Xgboost, GBDT,
-       -  *HMM/CRF* for sequence labeling).
+      - *Attention based RNN* for seq2seq,
+      - *CNN* enhanced by *spatial transformer layer*,
+      - *VAE* for noise tolerance image classification,
+      - *Aggregation Model* like Xgboost, GBDT,
+      - *HMM/CRF* for sequence labeling).
     - 根据具体项目和应用场景, 参与机器学习 *算法模型评估和选择*, 撰写高可解释性
       说明文档.
     - 基于 *SparkML*, 使用 *K-means, LR, GBDT, tSNE, PCA* 等算法模型对 IPTV

@@ -1,0 +1,235 @@
+#+OPTIONS:     toc:nil num:nil author:nil date:nil
+
+# 文本周围的空白距离
+#+LaTeX_HEADER: \usepackage[left=0.5in,top=0.8in,right=0.5in,bottom=1in]{geometry}
+
+#+LATEX_CLASS_OPTIONS: [10pt]
+#+LaTeX_HEADER: \usepackage{palatino}
+#+LaTeX_HEADER: \usepackage{fancyhdr}
+#+LaTeX_HEADER: \usepackage{sectsty}
+#+LaTeX_HEADER: \usepackage{engord}
+#+LaTeX_HEADER: \usepackage{cite}
+
+# 中文字体设置
+#+LaTeX_HEADER: \documentclass[UTF8,nofonts]{ctexart}          % For chinese font
+#+LaTeX_HEADER: \usepackage{xeCJK}                             % For chinese font
+#+LATEX_HEADER: \setCJKmainfont[BoldFont={SimHei/Bold}]{SimHei}% For chinese font
+#+LaTeX_HEADER: \usepackage{graphicx}
+#+LaTeX_HEADER: \usepackage{setspace}
+#+LaTeX_HEADER: \usepackage[compact]{titlesec}
+#+LaTeX_HEADER: \usepackage[center]{caption}
+#+LaTeX_HEADER: \usepackage{multirow}
+#+LaTeX_HEADER: \usepackage{ifthen}
+#+LaTeX_HEADER: \usepackage{longtable}
+#+LaTeX_HEADER: \usepackage{color}
+#+LaTeX_HEADER: \usepackage{amsmath}
+#+LaTeX_HEADER: \usepackage{listings}
+#+LaTeX_HEADER: \usepackage{pdfpages}
+#+LaTeX_HEADER: \usepackage{nomencl}	% For glossary
+#+LaTeX_HEADER: \usepackage{pdflscape}	% For landscape pictures and environment
+#+LaTeX_HEADER: \usepackage{verbatim} 	% For multiline comment environments
+#+LaTeX_HEADER: \usepackage[table]{xcolor}
+#+LATEX_HEADER: \usepackage{titlesec}
+
+# latex 局部字体设置:
+# \tiny
+# \small
+# \normalsize
+# \large
+# \Large
+# \huge
+# \Huge
+
+# latex 标题格式设置
+# \titleformat*{\section} 小标题格式
+# \titleformat*{\subsection} 小小标题格式
+# 这个 titleformat 中 \color{red} 设置的是小标题的颜色
+# format参数将章标题设置为居中(\centering)显示、字号为 \Huge, 字体被加粗显示\bfseries
+#+LATEX_HEADER: \titleformat*{\section}{\color{red}\normalfont\Large\bfseries}
+#+LATEX_HEADER: \titleformat*{\subsection}{\color{black}}
+#+LATEX_HEADER: \titleformat*{\paragraph}{\color{black}}
+
+# 超链接文字颜色设置
+#+LATEX_HEADER: \hypersetup{colorlinks=true,linkcolor=blue}
+#+LATEX_HEADER: \hypersetup{colorlinks=true,urlcolor=blue}
+
+
+
+#+BEGIN_EXPORT latex
+\begin{left}
+{\Huge\textbf{\kaishu 袁龙}}
+\begin{left}
+{\Large\textbf{\kaishu \ \ \ \ \ \ \ 求职意向:\ \ \ \ \ 高级算法架构师, 算法专家}
+}
+\end{left}
+\end{left}
+#+END_EXPORT
+
+-------------------
+
+#+BEGIN_EXPORT latex
+\begin{left}
+{\normalsize\textbf{\ \ \ \ \ \ \
+籍贯: 江苏徐州\ \ \ \ \ \ \ \ \ \ \ \ 政治面貌: 中共党员
+}}
+\end{left}
+#+END_EXPORT
+
+#+BEGIN_EXPORT latex
+\begin{left}
+{\normalsize\textbf{\ \ \ \ \ \ \
+手机: 18118801655\ \ \ \ \ \ 邮箱: yiddishkop@163.com
+}}
+\end{left}
+#+END_EXPORT
+
+#+BEGIN_EXPORT latex
+\begin{left}
+{\normalsize\textbf{\ \ \ \ \ \ \
+博客 : https://yiddi.coding.me
+}}
+\end{left}
+#+END_EXPORT
+
+
+* 工作履历
+
+#+BEGIN_EXPORT latex
+\begin{left}
+{\normalsize\textbf
+  {\kaishu \ \ \ \ \ \
+\par
+  \setlength{\parindent}{6ex}
+   职位: \ {\large\textbf
+  {高级算法架构师, 算法团队负责人}}\ \ @苏宁易购,南京 \par
+  \setlength{\parindent}{6ex}
+   技术: \ Tensorflow, pytorch, scikit, Spark, opencv \par
+  \setlength{\parindent}{6ex}
+   时间: \ 2018.10 - 今 \par
+  \setlength{\hangindent}{12ex}
+   工作: \ 负责算法团队的工作规划及管理,建设团队技术栈,培训算法工程师. 牵头与工程及产品部门交流并定义算法需求. 负责全产业会员中心机器学习算法设计
+   (tensorflow, pytorch, scikit)以及实时计算平台架构(spark), 参与公司技术选型. 独立带领团队完成苏宁易购足记实时推荐系统算法及架构设计, 苏宁豆芽
+   IM人脸识别系统算法设计, 中心智能流控模型算法及架构设计. \par
+  }
+}
+\end{left}
+#+END_EXPORT
+
+  \setlength{\hangindent}{12ex}
+  #+BEGIN_EXPORT latex
+\begin{left}
+{\normalsize\textbf{\kaishu \ \ \ \ \ \
+   \par
+  \setlength{\parindent}{6ex}
+   职位: \ {\large\textbf
+  {算法架构师}}\ \ @中兴,南京 \par
+  \setlength{\parindent}{6ex}
+   技术: \ Tensorflow, pytorch, Scikit-Learn, opencv, Spark \par
+  \setlength{\parindent}{6ex}
+   时间: \ 2015.03 - 2018.09 \par
+  \setlength{\hangindent}{12ex}
+   工作: \ 先后担任算法工程师/架构师, 负责深度学习算法模型预研/算法设计工作. 参与中兴
+   GoldenData 大数据分析平台算法设计, IPTV 推荐系统算法设计, 小兴看看智能摄像头人脸识别算法
+   设计. \par
+}}
+\end{left}
+#+END_EXPORT
+
+  \setlength{\hangindent}{12ex}
+  #+BEGIN_EXPORT latex
+\begin{left}
+{\normalsize\textbf{\kaishu \ \ \ \ \ \
+   \par
+  \setlength{\parindent}{6ex}
+   职位: \ {\large\textbf
+  {算法工程师}}\ \ @大坤,深圳 \par
+  \setlength{\parindent}{6ex}
+   技术: \ spark, hbase, hadoop \par
+  \setlength{\parindent}{6ex}
+   时间: \ 2010.06 - 2015.02 \par
+  \setlength{\hangindent}{12ex}
+   工作: \ 算法工程师, 负责推荐系统算法设计及工程落地, 负责大坤电子商务网站推荐算法设计及基础架构工作. \par
+}}
+\end{left}
+#+END_EXPORT
+
+* 项目经验
+  \setlength{\hangindent}{12ex}
+  #+BEGIN_EXPORT latex
+  \begin{left}
+{\normalsize\textbf{\kaishu \ \ \ \ \ \
+   \par
+  \setlength{\parindent}{6ex}
+   项目名称: \ 苏宁足记推荐系统 \par
+  \setlength{\parindent}{6ex}
+   项目时间: \ 2018.12 - 2019.04 \par
+  \setlength{\parindent}{6ex}
+   项目角色: \ 算法设计及系统架构 \par
+  \setlength{\hangindent}{16ex}
+   项目内容: \ 苏宁6亿商品数据3亿用户的实时推荐系统, 采用分布式系统架构包括四个子系统: 足记机器学习子系统, 足记前/中/后台. 机器学习子系统目前实现了三套算法: GBDT+SVM, GBDT+FM 以及 DeepFM,
+   考虑到计算性能及 A/B 效果最终选择 DeepFM 作为基础模型, 使用 tensorflow 实现, 通过 TensoflowServing + RESTfull 对中台提供服务. Spring 前台系统; 中台 kafka, rabbitMq; 后台使用 spark streaming
+   处理用户点击流,日志信息,redis 中的热点商品数据,hbase 中的全量商品数据, 最终生成 TFRecord. 系统上线后 ctr 16\%, 存车率5\%, 购买率2.5\%. 系统参评苏宁2019一季度互联网创新奖,
+   获二等奖. \par
+}}
+\end{left}
+#+END_EXPORT
+
+  \setlength{\hangindent}{12ex}
+  #+BEGIN_EXPORT latex
+  \begin{left}
+{\normalsize\textbf{\kaishu \ \ \ \ \ \
+   \par
+  \setlength{\parindent}{6ex}
+   项目名称: \ 苏宁豆芽人脸识别系统 \par
+  \setlength{\parindent}{6ex}
+   项目时间: \ 2018.10 - 2019.02 \par
+  \setlength{\parindent}{6ex}
+   项目角色: \ 算法设计及系统架构 \par
+  \setlength{\hangindent}{16ex}
+   项目内容: \ 豆芽IM是全苏宁25万员工日常使用的司内通信软件(已经对外商用,功能类似阿里钉钉), 人脸识别及认证系统为其子系统, 具备人脸检测/活体检测/人脸对齐/人脸识别功能, 人脸数据库采用 Hbase+redis 实现,
+              人脸特征点检测使用 Dlib 标定60个左右的特征点, 基础算法采用级联方式依次进行人脸检测和活体检测,确定为活体人脸之后,进行人脸对齐与人脸识别. 基础算法采用 eigenface+xgboost/tensorflow+deepface.
+              实现.   \par
+}}
+\end{left}
+#+END_EXPORT
+
+  \setlength{\hangindent}{12ex}
+  #+BEGIN_EXPORT latex
+  \begin{left}
+{\normalsize\textbf{\kaishu \ \ \ \ \ \
+   \par
+  \setlength{\parindent}{6ex}
+   项目名称: \ 中兴 golden data 大数据分析平台 \par
+  \setlength{\parindent}{6ex}
+   项目时间: \ 2016.06 - 2018.08 \par
+  \setlength{\hangindent}{12ex}
+   项目角色: \ 算法设计及基本架构 \par
+  \setlength{\hangindent}{16ex}
+   项目内容: \ 该项目为电信 IPTV 大数据分析平台的子系统用户数据分析平台与推荐系统, 平台根据 IPTV 盒子采集的部分用户信息购买行为进行可视化/特征提取/分析预测/实时推荐,
+             采用 spark streaming + xgboost 提取有效用户特征, 使用 Tensorflow/Keras/SparkML 训练机器学习推荐算法, 采用 D3.j3 进行后端购买及点击率CTR可视化.
+             平台实现了 K-means, LR, GBDT, tSNE, PCA 等算法模型.   \par
+}}
+\end{left}
+#+END_EXPORT
+
+* 个人评价
+#+ATTR_LATEX: :environment longtable :align p{10cm} p{1cm} p{5cm}
+| 1. 三年算法部门管理经验                                |   |   |
+| 2. 扎实的数学和统计学基础                            |   |   |
+| 3. 扎实的深度学习算法知识及工程框架使用经验          |   |   |
+| 4. 熟练掌握 tensorflow/pytorch/scikit 等机器学习框架 |   |   |
+| 5. 熟练掌握 Spark, Hbase, Hive, Redis 等大数据工具   |   |   |
+| 6. 持续跟踪机器学习前沿论文                          |   |   |
+| 7. 性格稳重不乏热情, 善于沟通                        |   |   |
+
+* 技术栈
+  #+ATTR_LATEX: :environment longtable :align p{6cm} p{3cm} p{7cm}
+  | *_机器学习框架_*                                                          |   | *_机器学习算法_*                                                       |
+  | Tensorflow, Keras, pytorch, Numpy, Scipy,Matplotlib, Pandas, Scikit-learn |   | XGBOOST, YOLO, LR, GBDT, SVM, RF, CNN, RNN, GAN, LSTM, Q-learning, A3C |
+  |                                                                           |   |                                                                        |
+  | *_大数据框架_*                                                            |   | *_图像算法工程库_*                                                     |
+  | Spark, redis, hbase, hive                                                 |   | opencv,matlab,dlib                                                     |
+
+* 教育背景
+   - 南京理工大学
+   - 计算机科学与技术本科学士学位
